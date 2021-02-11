@@ -1,0 +1,106 @@
+{% extends 'base.html' %} {% load bootstrap4 %} {% load static%} {% block content %}
+<header class="vida">
+    <div class="overlay">
+
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <h1 class="display-3 bet animated zoomInDown" style="animation-delay: 1s;">JOJO CARS</h1>
+                    <p class="lead mb-0 para animated slideInLeft" style='animation-delay: 2s;'>"All human males were as fascinated with cars as they were with breasts."</p>
+                    <p class="ed animated slideInLeft" style='animation-delay: 2s;'> ~Anita Clenney </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="projects" style="margin-top:120px;">
+    <h3 class="text-center hub"><span id="a">S</span><span id="r">H</span><span id="t">O</span><span id="s">W</span><span id="a">R</span><span id="r">O</span><span id="t">O</span><span id="s">M</span></h3>
+    <div class="container">
+        <div class="row">
+            {% for post in posts %}
+            <div class="col-sm-12 col-md-6 col-lg-4">
+
+                <div class="card" style="height:360px;margin-bottom:10px;">
+                    <div class="card-body">
+
+                        <a href="{% url 'single-car' post.id %}">
+                            <div class="img-cont">
+                                <img class="card-img-top mb-10 img-responsive i-images" src="{{post.photo.url}}" style="height:260px;width:100%;">
+                                <div class="overlay">
+                                    <div class="text">{{post.title}}</div>
+                                    <div class="details"><a href="{% url 'single-car' post.id %}" class="btn btn-info">View Details</a></div>
+                                </div>
+                            </div>
+
+                        </a>
+
+
+                        <br>
+                        <p style="font-size:16px;">By : {{post.user | upper}} <span style="float:right;font-size:16px;">{{post.date | date:"D, d-m-Y"}}</span></p>
+
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            {% endfor %}
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="container">
+            <h3 class="text-center">CONTACT</h3>
+            <p class="text-center"><em>if you have any question and others imformation text me on email, or call me on this number!</em></p>
+            <div class="row test">
+                <div class="col-md-4">
+                    <!-- <p>Fan? Drop a note.</p> -->
+                    <p><span class="glyphicon glyphicon-map-marker"></span>Kigali,Rwanda</p>
+                    <p><span class="glyphicon glyphicon-phone"></span>Phone: +250782013962</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span>joseingabire123@gmail.com</p>
+                </div>
+                <!-- <div class="col-md-8">
+                    <div class="col-md-4">
+                        <hr>
+                        <h4 class="dai">Daily NewsLetter</h4><br>
+                        <form action="{%url 'photos'%}" method="post">
+                            {%csrf_token%} {% bootstrap_form form %}
+                            <input type="submit" value="Subscribe" class="btn btn-sm bt-outline btn-primary">
+                        </form>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <button class="btn pull-right" type="submit">Send</button>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <footer class="bot">
+            <div class="row word">
+
+
+
+            </div>
+
+        </footer>
+    </div>
+</div>
+
+
+
+<style>
+    .vida {
+        background-image: url('https://images.pexels.com/photos/3311574/pexels-photo-3311574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-size: cover;
+        background-position: center;
+    }
+</style>
+
+{% endblock %}
