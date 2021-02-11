@@ -1,4 +1,4 @@
-# MY PROJECT CAR EXPSTION
+# MY PROJECT IS CAR EXPOSTION
 
 [INGABIRE Joselyne](https://github.com/Joselyne123/Car_Expostion)  
   
