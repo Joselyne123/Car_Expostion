@@ -14,8 +14,7 @@ The project enables users post cars pieces from their hood and other users can c
 * A user can subscribe to the newsletter
 * A user can create their own profile and log in to the webapp
 * A user can view their profile page. 
-     
-##### Cloning the repository:  
+      
 ```bash
 https://github.com/Kerrykogei24/K-CARHUB
 ```
