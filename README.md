@@ -1,6 +1,6 @@
 # MY PROJECT CAR EXPSTION
 
-[Kerry Komar](https://github.com/Kerrykogei24/K-CARHUB)  
+[INGABIRE Joselyne](https://github.com/Joselyne123/Car_Expostion)  
   
 # Description  
 The project enables users post cars pieces from their hood and other users can comment on the piece and even follow and subscribe to get newsletter about the web app
