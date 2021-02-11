@@ -16,9 +16,7 @@ The project enables users post cars pieces from their hood and other users can c
 * A user can view their profile page. 
       
 ##### Navigate into the folder and install requirements  
- ```bash
- cd CARHUB pip install -r requirements.txt 
- ```
+
 ##### Install and activate Virtual  
 ```bash
 - python3 -m venv virtual - source virtual/bin/activate
