@@ -5,11 +5,6 @@
 # Description  
 The project enables users post cars pieces from their hood and other users can comment on the piece and even follow and subscribe to get newsletter about the web app
 
-
-##  Live Link  
- Click [View Site](https://carhub24.herokuapp.com/photos)  to visit the site
-  
-
 ## User Story  
   
 * A user can view different posts posted by other car dealers
