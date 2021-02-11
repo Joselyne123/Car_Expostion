@@ -46,5 +46,4 @@ If you have any question or contributions, please email me at [joseingabire123@g
   
 ## License 
 
-* [![License](https://img.shields.io/packagist/l/loopline-systems/closeio-api-wrapper.svg)](https://github.com/Kerrykogei24/K-CARHUB)  
-* Copyright (c) 2021 **Kerry Komar**
+* Copyright (c) 2021 **INGABIRE Joselyne**
